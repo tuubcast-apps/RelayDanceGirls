@@ -1,0 +1,8 @@
+=begin reload
+
+=begin message
+=(object effect: type=lottie, filename="waiting.json", style=effect_loading)=\
+=(object label: text="새로운 영상을 불러오고 있습니다.", style=label_message)=
+=end message
+
+=end reload

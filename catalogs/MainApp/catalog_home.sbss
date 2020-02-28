@@ -1,0 +1,26 @@
+import themes.sbss
+
+#showcase_contents: width=1pw, height=1ph-90dp, \
+        column-count=1, cell-size="1pw, 1ph-90dp", scroll-indicator-hidden=yes
+
+#btn_zoom: width=44dp, height=44dp, position=abs, gravity=left-top, x=10dp, y=1sbh-10dp
+#btn_zoom_in: style=btn_zoom
+#btn_zoom_out: style=btn_zoom
+
+#section_update: width=1pw, height=1sbh+44dp, position=abs, gravity=top, \
+        content-background-color=$COLOR_BLACK_DEEPEST_DIM
+
+#effect_update: width=44dp, height=44dp, margin-right=-12dp
+#label_update: height=44dp, font-family=@{$SANS_REGULAR}, font-size=1.0, text-color=$COLOR_WHITE
+
+#ad_banner: width=1pw, height=90dp, position=abs, gravity=bottom, y=-1eb
+
+/catalog: script-when-loaded=on_loaded, page-background-color=$THEME_COLOR_BACKGROUND
+/catalog/update: display=none, text-align=center
+/catalog/update/content: display=block, position=abs, gravity=top, y=1sbh
+
+if "${appearance}" != "magnified"
+    #btn_zoom_out: hidden=yes
+else
+    #btn_zoom_in: hidden=yes
+end

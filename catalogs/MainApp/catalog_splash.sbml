@@ -1,0 +1,9 @@
+=begin catalog
+
+=object effect: filename=present.json, style=effect_present
+
+=begin brand
+@{TUUBCAST} =[registered|Ⓡ]=
+=end brand
+
+=end catalog

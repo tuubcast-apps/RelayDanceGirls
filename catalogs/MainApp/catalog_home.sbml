@@ -1,0 +1,20 @@
+=begin catalog
+
+=object showcase: id=showcase.contents, data-script=feed_contents, alternate-name=contents, \
+        appearance="${appearance}", max-cell-count=1, loads-more=yes, more-count=1, reloads-when-pull=yes, \
+        sortable=yes, sortorder=random, style=showcase_contents
+
+=object button: id=btn.zoom_in, script=zoom_in, image=btn_zoom_in.png, style=btn_zoom_in
+=object button: id=btn.zoom_out, script=zoom_out, image=btn_zoom_out.png, style=btn_zoom_out
+
+=object section: id=section.update, section=update, style=section_update
+=begin update: id=update
+=begin content
+=(object effect: type=lottie, filename="waiting.json", style=effect_update)=\
+=(object label: text="@{Checking for new contents.}", style=label_update)=
+=end content
+=end update
+
+=object ad: vendor=admob, format=banner, style=ad_banner
+
+=end catalog

@@ -1,0 +1,17 @@
+import themes.sbss
+
+#img_screenshot: width=1ph*9/16, height=1ph, position=abs, gravity=top, \
+        quality=high, scale-mode=fill, default-color=$COLOR_WHITE_LIGHT_DIM
+#youtube: width=1ph*9/16, height=1ph, position=abs, gravity=top, \
+        preview-background-color=$COLOR_BLACK_DIM
+
+#effect_preview: width=200dp, height=200dp, position=abs, gravity=center
+
+/cell/preview: display=none
+/cell/preview/title: display=block, width=300dp, position=abs, gravity=center, y=120dp, \
+        font-family=@{$SANS_REGULAR}, font-size=1.2, text-color=$COLOR_WHITE, text-align=center, \
+        line-break-mode=word-wrap
+
+if $APPEARANCE == "magnified"
+    #youtube: width=(1ph*9/16)*1.6, height=1ph*1.6, y=-1ph*(1.6-1.0)/2
+end

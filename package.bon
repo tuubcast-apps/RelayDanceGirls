@@ -1,0 +1,14 @@
+{
+    "id": "com.tuubcast.RelayDanceGirls",
+    "language": "ko",
+    "version": "1.0",
+    "title": "Relay Dance",
+    "description": "#Kpop #Girls #Hot #Dance",
+    "has-update-script":"yes",
+    "localization":{
+        "ko":{
+            "title":"릴레이 댄스",
+            "description":"#걸그룹 #매일매일 #댄스영상"
+        }
+    }
+}

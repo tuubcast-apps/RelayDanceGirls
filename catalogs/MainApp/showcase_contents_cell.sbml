@@ -1,0 +1,18 @@
+=begin cell
+
+=object image: type=youtube, video-id="${video-id}", uses-for-screenshot=yes, \
+        style=img_screenshot
+=object youtube: video-id="${video-id}", reuse-id="youtube.${video-id}", quality=hd720, \
+        autoplay=yes, control-hidden=yes, info-hidden=yes, subtitle-hidden=yes, \
+        preview-section=preview, minimum-preview-time=1, \
+        action-when-finished=reload, params-when-finished="target=owner", \
+        style=youtube
+
+=begin preview: id=preview
+=object effect: type=lottie, filename="preview.json", style=effect_preview
+=begin title
+${title}
+=end title
+=end preview
+
+=end cell

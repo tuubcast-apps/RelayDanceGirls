@@ -1,0 +1,7 @@
+=begin reload
+
+=begin message
+=(object label: text="아래로 잡아당기면 새로운 영상을 불러옵니다.", style=label_message)=
+=end message
+
+=end reload

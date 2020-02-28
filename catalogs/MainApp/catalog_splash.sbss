@@ -1,0 +1,15 @@
+import themes.sbss
+
+#registered: font-size=0.5em, vertical-align=top
+
+/catalog: script-when-loaded=on_loaded, page-background-color=$THEME_COLOR_SPLASH_BACKGROUND
+/catalog/brand: display=block, pack=yes, position=abs, gravity=center, \
+		font-family=@{$SANS_BOLD}, text-color=$COLOR_BLACK
+
+if $ORIENTATION == "portrait"
+	#effect_present: width=0.8pw, height=0.8pw, position=abs, gravity=center, y=-0.2pw
+	/catalog/brand: y=0.2pw, font-size=2.0
+else
+	#effect_present: width=0.8ph, height=0.8ph, position=abs, gravity=center, x=-0.3ph, y=-0.2ph
+	/catalog/brand: x=0.15ph, y=0.05ph, font-size=3.0, 
+end

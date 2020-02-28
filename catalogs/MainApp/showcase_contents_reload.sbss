@@ -1,0 +1,7 @@
+import themes.sbss
+
+#effect_loading: width=44dp, height=44dp, margin-right=-12dp
+#label_message: max-width=1pw-(44dp+20dp), height=44dp, line-break-mode=tail-truncation, \
+            font-family=@{$SANS_REGULAR}, font-size=1.0, text-color=$COLOR_WHITE
+
+/reload/message: margin="1sbh 10dp 10dp", text-align=center
